@@ -1,0 +1,41 @@
+
+@import 'animacion';
+
+.container-items {
+    display: inline-flex;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 40px;
+    gap: 40px;
+  }
+  
+  .item {
+    border-radius: 10px;
+  }
+  
+  .item:hover {
+    box-shadow: 0 10px 20px rgb(228, 213, 7);
+  }
+  
+  .info-producto {
+    margin: 30px;
+    padding: 15px 30px;
+    line-height: 2;
+    display: inline-block;
+    justify-content: center;
+  }
+  
+  .item figure {
+    overflow: hidden;
+  }
+  
+  .item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: all 1.5s;
+  }
+  
+  .item:hover img {
+    transform: scale(1.2);
+  }

@@ -1,0 +1,52 @@
+@import 'media';
+
+@media (max-width: 700px){
+   
+    nav{
+     display: grid;
+     grid-template-rows: auto;
+     
+     }
+     img{
+         flex-direction: column;
+         
+     }
+     img{
+         display: flex;
+     }
+     .navbar-menu {
+         display: none;
+       }
+     
+       .navbar-toggle {
+         display: block;
+       }
+     
+      
+     }
+ 
+ @media (max-width: 1200px){
+     nav{
+         display: grid;    
+         grid-template-rows: auto;
+         padding: 10px 0px;
+         gap: 10px;    
+     }
+     img{
+         flex-direction: column;
+        
+     }
+     img{
+         display: grid;
+     }
+     .navbar-menu {
+         display: grid;
+       }
+     
+       .navbar-toggle {
+         display: grid;
+       }
+     
+       
+     }
+ 

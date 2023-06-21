@@ -4,57 +4,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Somos una tienda digital que se encarga de distribuir todo tipo de productos electronicos">
+    <meta name="keywords" content="Electronica, perisfericos, digital, entretenimiento">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../media/favicon.jpeg" type="favicon">
     <title>Mouse</title>
 </head>
 <body>
     
     <header>   
-    
-        <nav>
-    <h1>eTienda</h1>
-    <ul><a href="../index.html">Tienda</a></ul>
-    <ul><a href="/accesorios.html">Componentes</a></ul>
-    <ul><a href="/marcas.html">Marcas</a></ul>
-    <ul><a href="/contacto.html">Contactanos</a></ul>
-    <ul><a href="/pages/quienesSomos.html">Sobre nosotros</a></ul>
-         <div class="container-icono">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-img">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
-              </svg>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">Tienda</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/quienesSomos.html">Sobre nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Más
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../pages/perisfericos.html">Perisfericos</a></li>
+                      <li><a class="dropdown-item" href="cargadorPor.html">Cargador portatil</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="camara.html">Camara</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled"></a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="Buscar">
+                  <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
             </div>
-        </nav>
+          </nav>
     </header>
 
 
 
     <h1>Mouse</h1>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, temporibus obcaecati alias distinctio molestiae eligendi nesciunt expedita, architecto sunt itaque illo est blanditiis tempora perferendis reiciendis dolor laborum voluptates dolores.</p>
-<br>
-<br>
-<br>
-<br>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur tempora officiis vero debitis nostrum consequuntur maxime inventore nihil autem. Laboriosam necessitatibus explicabo reiciendis quasi. Similique, amet ipsam! Voluptates, obcaecati perferendis?</p>
-<br>
-<br>
-<br>
-<br>
+    <main>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi fuga exercitationem consequuntur et consequatur, placeat, velit explicabo quis consectetur dolores ipsam perferendis! Harum placeat labore ullam saepe quaerat corporis blanditiis?</p>
-
-
-<footer>
-    <div class="container-footer">
-        <div class="links">
-            <span><a href="contacto.html">Contactanos</a></span>
+        <div class="container-imgprod">
+         <img src="../media/maouse.jpeg" alt="mouse">
         </div>
-        <div class="links">
-            <span><a href="quienesSomos.html">¿Quienes somos?</a></span>
-        </div>
-        <div class="links"><span><a href="../index.html">Volver a la tienda</a></div></span>
-    </div>
-</footer>
+        <div class="container-infoprod">
+         <div class="container-precio">
+             <span>$40</span>
+         </div>
+         <div class="container-detalleprod">
+             <div class="form-grupo">
+                 <label for="color">color</label>
+                 <select name="color" id="color">
+                     <option disabled selected value="">Colores disponibles</option>
+                     <option value="Negro">Negro</option>
+                     <option value="Azul">Azul</option>
+                     <option value="gris">Gris</option>
+                     <option value="Rosado">Rosado</option>
+                 </select>
+             </div>
+         </div>
+         <div class="container-carrito">
+             <div class="container-cantidad"> Cantidad
+                 <input type="number" placeholder="1" value="1" min="1" max="4" class="input-cantidad">
+             </div>
+             <button class="container-anadirCarrito">
+                 <i class="fa-solid fa-cart-plus"></i>
+                 Añadir al carrito 
+             </button>
+         </div>
+         
+         <div class="container-textoDescripcion">
+              <h4>Descripción del producto</h4>
+             <i class="fa-solid fa-down"></i>
+             <p>Mouse inalambrico. Disenado p/la vida en movimiento. Sin cables y c/almacenamiento p/el transceptor integrado. Diseno compacto y comodo para uso en ambas manos. Rueda de desplazamiento. Nano transceptor Plug-And-Go. Pila c/duracion de h/6 meses.</p>
+         
+         
+         <div class="container-infoAdd">
+             <div class="texto-infoAdd">
+                 <h4>Información adicional</h4>
+                 <i class="fa-solid fa-down"></i>
+             </div>
+             <div class="texto-Adicional">
+                 <i class="fa-solid fa-down"></i>
+                 <p> Incluye pilas y mousepad </p>
+             </div>
+         </div>
+   
+     
+         </div>
+   
+        
+     
+           </main>
 
+           <footer>
+            <a href="../pages/contacto.html" class="nav link">Contacto</a>
+            <a href="../pages/perisfericos.html" class="nav link">Perisfericos</a>
+            <a href="../pages/quienesSomos.html" class="nav link">Quienes somos</a>
+            <a href="../pages/accesorios.html" class="nav link">Accesorios</a>
+        
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

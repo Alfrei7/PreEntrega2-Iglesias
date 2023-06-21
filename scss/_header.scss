@@ -1,0 +1,39 @@
+@import 'header';
+
+header {
+  nav {
+    background-color: #FFD833;
+    color: #fff;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: auto;
+}
+  
+  nav ul {
+    margin-left: 30px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-flex;
+    gap: 140px
+}
+  
+  nav ul li {
+    display: flex;
+  }
+  
+  nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #FFD833;
+  }
+
+
+  img {
+    height: 50px;
+    margin-left: 10px;
+  }
+}
