@@ -445,6 +445,28 @@ footer{
         
         padding: 20px;
       }
+
+footer{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFD833;
+  }
+
+ footer a{
+    margin: 15px;
+    padding: 20px;
+
+ }
+
+
+ 
+ svg{
+    padding-right: 10px;
+ }
+
+
     }
 
 @media (max-width: 1200px){
@@ -493,5 +515,25 @@ footer{
         display: flex;
         flex: 1;
       }
+
+      footer{
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FFD833;
+      }
+    
+     footer a{
+        margin: 15px;
+        padding: 20px;
+    
+     }
+    
+    
+     
+     svg{
+        padding-right: 10px;
+     }
 
     }
